@@ -1,0 +1,129 @@
+2022-02-03 14:09:25,252 -- [test_login.py-->line:25] - ERROR: 用例--正常登录--执行未通过
+2022-02-03 14:09:25,253 -- [test_login.py-->line:26] - ERROR: assert ['0'] == '0'
+ +  where ['0'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '0', 'data': {'id': 170684, 'phone': '15180000000', 'token_info': {'expires_in': '2022-02-03 14:14:23', 'toke...A9CpyM6CwhsnRA9A-_QDC7CVSmmDqSsaliKIN2pVOJ9vIjfq_Mau_61Q', 'token_type': 'Bearer'}, 'type': False, ...}, 'msg': '操作成功'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['0'] == '0'
+ +  where ['0'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '0', 'data': {'id': 170684, 'phone': '15180000000', 'token_info': {'expires_in': '2022-02-03 14:14:23', 'toke...A9CpyM6CwhsnRA9A-_QDC7CVSmmDqSsaliKIN2pVOJ9vIjfq_Mau_61Q', 'token_type': 'Bearer'}, 'type': False, ...}, 'msg': '操作成功'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:09:25,398 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名错误--执行未通过
+2022-02-03 14:09:25,398 -- [test_login.py-->line:26] - ERROR: assert ['0'] == '1001'
+ +  where ['0'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '0', 'data': {'id': 170684, 'phone': '15180000000', 'token_info': {'expires_in': '2022-02-03 14:14:23', 'toke...A9CpyM6CwhsnRA9A-_QDC7CVSmmDqSsaliKIN2pVOJ9vIjfq_Mau_61Q', 'token_type': 'Bearer'}, 'type': False, ...}, 'msg': '操作成功'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['0'] == '1001'
+ +  where ['0'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '0', 'data': {'id': 170684, 'phone': '15180000000', 'token_info': {'expires_in': '2022-02-03 14:14:23', 'toke...A9CpyM6CwhsnRA9A-_QDC7CVSmmDqSsaliKIN2pVOJ9vIjfq_Mau_61Q', 'token_type': 'Bearer'}, 'type': False, ...}, 'msg': '操作成功'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:09:25,518 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-密码错误--执行未通过
+2022-02-03 14:09:25,519 -- [test_login.py-->line:26] - ERROR: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:09:25,648 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名为空--执行未通过
+2022-02-03 14:09:25,648 -- [test_login.py-->line:26] - ERROR: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:09:25,771 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-密码为空--执行未通过
+2022-02-03 14:09:25,771 -- [test_login.py-->line:26] - ERROR: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:09:25,895 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名、密码为空--执行未通过
+2022-02-03 14:09:25,895 -- [test_login.py-->line:26] - ERROR: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code") == expected["code"]
+AssertionError: assert ['1001'] == '1001'
+ +  where ['1001'] = <function jsonpath at 0x0000019D2A0F1620>({'code': '1001', 'data': None, 'msg': '用户名或密码错误！'}, '$..code')
+ +    where <function jsonpath at 0x0000019D2A0F1620> = jsonpath.jsonpath
+2022-02-03 14:10:06,993 -- [test_login.py-->line:29] - INFO: 用例--正常登录--执行通过
+2022-02-03 14:10:07,107 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名错误--执行未通过
+2022-02-03 14:10:07,109 -- [test_login.py-->line:26] - ERROR: assert '0' == '1001'
+  - 1001
+  + 0
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code")[0] == expected["code"]
+AssertionError: assert '0' == '1001'
+  - 1001
+  + 0
+2022-02-03 14:10:07,249 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码错误--执行通过
+2022-02-03 14:10:07,363 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名为空--执行通过
+2022-02-03 14:10:07,483 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码为空--执行通过
+2022-02-03 14:10:07,602 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名、密码为空--执行通过
+2022-02-03 14:11:22,522 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下jpg格式--执行通过
+2022-02-03 14:11:22,689 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下png格式--执行通过
+2022-02-03 14:11:22,774 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以上jpg格式--执行通过
+2022-02-03 14:11:22,899 -- [test_login.py-->line:29] - INFO: 用例--正常登录--执行通过
+2022-02-03 14:11:23,027 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名错误--执行未通过
+2022-02-03 14:11:23,028 -- [test_login.py-->line:26] - ERROR: assert '0' == '1001'
+  - 1001
+  + 0
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code")[0] == expected["code"]
+AssertionError: assert '0' == '1001'
+  - 1001
+  + 0
+2022-02-03 14:11:23,199 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码错误--执行通过
+2022-02-03 14:11:23,315 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名为空--执行通过
+2022-02-03 14:11:23,432 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码为空--执行通过
+2022-02-03 14:11:23,546 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名、密码为空--执行通过
+2022-02-03 14:13:07,065 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下jpg格式--执行通过
+2022-02-03 14:13:07,233 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下png格式--执行通过
+2022-02-03 14:13:07,323 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以上jpg格式--执行通过
+2022-02-03 14:13:07,450 -- [test_login.py-->line:29] - INFO: 用例--正常登录--执行通过
+2022-02-03 14:13:07,577 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名错误--执行未通过
+2022-02-03 14:13:07,577 -- [test_login.py-->line:26] - ERROR: assert '0' == '1001'
+  - 1001
+  + 0
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code")[0] == expected["code"]
+AssertionError: assert '0' == '1001'
+  - 1001
+  + 0
+2022-02-03 14:13:07,752 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码错误--执行通过
+2022-02-03 14:13:07,876 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名为空--执行通过
+2022-02-03 14:13:07,995 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码为空--执行通过
+2022-02-03 14:13:08,115 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名、密码为空--执行通过
+2022-02-03 14:15:38,438 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下jpg格式--执行通过
+2022-02-03 14:15:38,686 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下png格式--执行通过
+2022-02-03 14:15:38,780 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以上jpg格式--执行通过
+2022-02-03 14:15:38,913 -- [test_login.py-->line:29] - INFO: 用例--正常登录--执行通过
+2022-02-03 14:15:39,036 -- [test_login.py-->line:25] - ERROR: 用例--登陆失败-用户名错误--执行未通过
+2022-02-03 14:15:39,036 -- [test_login.py-->line:26] - ERROR: assert '0' == '1001'
+  - 1001
+  + 0
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code")[0] == expected["code"]
+AssertionError: assert '0' == '1001'
+  - 1001
+  + 0
+2022-02-03 14:15:39,215 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码错误--执行通过
+2022-02-03 14:15:39,329 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名为空--执行通过
+2022-02-03 14:15:39,446 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-密码为空--执行通过
+2022-02-03 14:15:39,580 -- [test_login.py-->line:29] - INFO: 用例--登陆失败-用户名、密码为空--执行通过

@@ -1,0 +1,1 @@
+INFO     musen:test_fileupload.py:28 用例--100KB以上jpg格式--执行通过

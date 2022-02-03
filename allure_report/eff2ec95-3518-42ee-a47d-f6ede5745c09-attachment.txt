@@ -1,0 +1,1 @@
+2022-02-03 14:13:07,323 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以上jpg格式--执行通过

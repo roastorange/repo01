@@ -1,0 +1,1 @@
+2022-02-03 14:15:38,686 -- [test_fileupload.py-->line:28] - INFO: 用例--100KB以下png格式--执行通过

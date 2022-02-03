@@ -1,0 +1,10 @@
+ERROR    musen:test_login.py:25 用例--登陆失败-用户名错误--执行未通过
+ERROR    musen:test_login.py:26 assert '0' == '1001'
+  - 1001
+  + 0
+Traceback (most recent call last):
+  File "F:\apitest_firsttry\py27_web_project\testcase\test_login.py", line 22, in test_login
+    assert jsonpath.jsonpath(res, "$..code")[0] == expected["code"]
+AssertionError: assert '0' == '1001'
+  - 1001
+  + 0
